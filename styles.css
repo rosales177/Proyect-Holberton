@@ -47,3 +47,22 @@ header nav a:hover{
 article p,h2{
   margin-left: 20px;
 }
+article h2{
+  margin-top: 50px;
+}
+
+.section-twitter{
+  flex: 1.5;
+  
+}
+.section-twitter{
+  width: 50%;
+  margin: 50px 0 50px 50px;
+} 
+.article-twitte{
+  justify-content: space-evenly;
+}
+.article-twitte p{
+  text-align: justify;
+  padding-right: 50px;
+}
