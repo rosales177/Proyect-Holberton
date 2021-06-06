@@ -1,0 +1,45 @@
+@charset "utf-08";
+
+body, main{
+    display: flex;
+}
+body{
+    flex-direction:column;
+}
+main{
+    flex-direction: row;
+    flex: auto;
+}
+header h1{
+    display: inline-block;
+}
+
+header img{
+    width: 20%;
+    margin: 0 0 0 30px;
+    vertical-aling: middle;
+}
+header{
+    padding: 50px;
+}
+article{
+    flex:2;
+}
+aside{
+    flex:1;
+}
+
+article, aside{
+    overflow-y:auto;
+}
+#margenizquierdo{
+    margin: 0 20px 0 50%;
+}
+header nav a{
+    margin: 0 20px 0 0;
+}
+
+header nav a:hover{
+    color: #000;
+    text-decoration: overline;
+}
