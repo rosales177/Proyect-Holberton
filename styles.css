@@ -84,3 +84,18 @@ footer a{
 footer a:hover{
   color: white;
 }
+
+#smart_thumbnail{
+  margin: 50px 0 50px 130px;
+  padding: 0%;
+}
+.section-js{
+  width: 500px;
+}
+section img{
+  width:75%;
+}
+article p{
+  
+}
+  
