@@ -22,25 +22,83 @@
     <main>
       <section class="section-js">
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJFDcL8lMyOvTLj1DZaxHOF5sIuzjN6gBNqQ&usqp=CAU" id="smart_thumbnail">
-        <div class="card">
-          <button class="btn" onclick="myFunction()">
-            <img src="letterx_83737.png" alt="">
-          </button>
-          <div>HOla Mundo</div>
-        </div id="card-1">
-        <div class="card">
-          <button class="btn" >
-            <img src="letterx_83737.png" alt="">
-          </button>
-          <div id="card-2">Hola Mundo</div>
-        </div>
+       
       </section>
       <article>
         <h2>¿Qué es Javascript?</h2>
         <p>JavaScript es el único lenguaje de programación que funciona en los navegadores de forma nativa (lenguaje interpretado sin necesidad de compilación). Por tanto se utiliza como complemento de HTML y CSS para crear páginas webs.</p>
         <h2>¿Qué se puede hacer con JavaScript?</h2>
       </article>
+     
     </main>
+     <div class="card card-abajo">
+          <button class="btn" id="btn1">
+            <img src="letterx_83737.png" alt="">
+          </button>
+          <h3>Ejemplo</h3>
+          <div id="card-1" class="subcard"><h3>Card Desplegable</h3>
+          <p class="parrafo">Para hacer un card desplegable se debe de crear un &lt;div&gt; principal con la clase "card" como el siguiente:</p>
+          <div class="card-codigo">
+            <p>&lt;div class="card"&gt;&lt;/div&gt;</p>
+          </div>
+          <p class="parrafo">Después, dentro del &lt;div&gt; se debe crear un &lt;button&gt;</p>
+          <div class="card-codigo">
+            <p>&lt;div class="card"&gt;</p>
+            <p class="tabulador">&lt;button class="btn" id="btn1"&gt;
+              &lt;/button&gt;</p>
+            <p>&lt;/div&gt;</p>
+          </div>
+          <p class="parrafo"> y un subcard &lt;div&gt;</p>
+           <div class="card-codigo">
+           <p>&lt;div class="card"&gt;</p>
+            <p class="tabulador">&lt;button class="btn" id="btn1"&gt;
+              &lt;/button&gt;</p>
+            <p class="tabulador">&lt;div id="card-1" class="subcard"&gt;</p>
+            <p class="tabulador">&lt;/div&gt;</p>
+           <p>&lt;/div&gt;</p>
+          </div>
+          <p class="parrafo">el css :</p>
+            <div class="card-codigo">
+              <p>
+                .card{</p>
+              <p class="tabulador">margin-left: 5%;</p>
+              <p class="tabulador">background-color: whitesmoke;</p>
+              <p class="tabulador">width: 80%;
+                padding: 20px 2.5% 20px 2.5%;</p>
+              <p class="tabulador">margin-top: 10px;
+                }
+              </p>
+              <br>
+              <p>.btn{</p>
+              <p class="tabulador">width: 30px;</p>
+              <p class="tabulador">background-color: whitesmoke;
+              }</p>
+              <p>#card-1{</p>
+              <p class="tabulador">display: none;
+              }</p><br>
+              <p>.subcard{</p>
+              <p class="tabulador">margin-top: 5px;
+              }</p>
+              <p>el Javascript:</p>
+              
+            </div>
+            <p class="parrafo">el Javascript:</p>
+            <div class="card-codigo">
+              <p>function desplegarCard1() {</p>
+              <p class="tabulador">let card1 = document.getElementById("card-1");</p>
+              <p class="tabulador">if (card1.style.display === "none") {</p>
+              <p class="dobletab">card1.style.display = "block";</p>
+              <p class="tabulador">} else {</p>
+              <p class="dobletab">card1.style.display = "none";
+              }</p>
+              <p>}</p>
+            <p>document.getElementById('btn1').onclick = function (){</p>
+            <p class="tabulador">desplegarCard1();
+            }</p>
+            </div>
+          </div>
+        </div>
+        
     <footer>
         <p>Made by Geraldo Oneil Rosales Poma for <a href="https://www.holbertonschool.com" target="_blank">Holberton School</a></p>
       </footer>

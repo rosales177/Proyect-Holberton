@@ -96,15 +96,51 @@ section img{
   width:440px;
 }
 .card{
-  margin-left: 30px;
-  background-color: silver;
-  width: 90%;
+  margin-left: 5%;
+  background-color: whitesmoke;
+  width: 80%;
+  padding: 20px 2.5% 20px 2.5%;
+  margin-top: 10px;
 }
 .btn{
   width: 30px;
   border: 0;
+  background-color: whitesmoke;
 }
-.btn:hover{
-  border: 1px solid;
+
+.btn:active{
+  transform: rotate(320deg);
+  transition: transform .5s
 }
-  
+#card-1{
+  display: none;
+}
+.subcard{
+  margin-top: 5px;
+}
+.card-abajo{
+  margin-bottom: 50px;
+}
+.card-codigo{
+  background-color: white;
+  width: 70%;
+  margin-left: 10%;
+  padding:2.5%;
+}
+div h3{
+  color: rgb(170, 0, 0);
+}
+.tabulador{
+  margin-left: 30px;
+}
+.dobletab{
+  margin-left: 60px;
+}
+.parrafo{
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 10px 0 10px 0;
+}
+.card h3, button{
+  display: inline-block;
+}
