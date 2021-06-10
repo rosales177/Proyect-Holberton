@@ -12,6 +12,9 @@ document.addEventListener("DOMContentLoaded",function(event){
   document.getElementById('btn1').onclick = function (){
     desplegarCard1();
   }
+  document.getElementById('card-principal').onclick= function(){
+    desplegarCard1();
+  }
 //Modificar tamaño de imagen. 
   var thumbnailElement = document.getElementById("smart_thumbnail");
   thumbnailElement.addEventListener("click",function(){

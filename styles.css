@@ -97,15 +97,19 @@ section img{
 }
 .card{
   margin-left: 5%;
-  background-color: whitesmoke;
+  background-color: rgb(228, 227, 227);
   width: 80%;
   padding: 20px 2.5% 20px 2.5%;
   margin-top: 10px;
 }
+.card:hover{
+  border: 1px solid silver;
+  transition: border .5s;
+}
 .btn{
   width: 30px;
   border: 0;
-  background-color: whitesmoke;
+  background-color: rgb(228, 227, 227);
 }
 
 .btn:active{
