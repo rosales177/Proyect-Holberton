@@ -161,3 +161,57 @@ padding-top: 30px;
 .padding{
   padding-top: 25px;
 }
+
+@media only screen and (max-width: 700px){
+  header{
+    padding: 20px 0 20px 50px;
+    
+  }
+  #margenizquierdo{
+    margin: 0 10px 0 0;
+}
+  header nav a{
+    padding: 0;
+    font-size: 8.3pt;
+    margin: 0 10px 0 0;
+}
+  .margin{
+    margin-left: 70px;
+  }
+  div a img{
+    width: 50px;
+  }
+  header img{
+    width: 150px;
+    margin: 10px 0 0 0;
+  }
+  main{
+    text-align: justify;
+    margin: 60px 0 0 0;
+  }
+  main p{
+    margin: 30px 20px 0 20px;
+  }
+  .text-largo{
+    font-size: 15pt;
+  }
+  .img-largo{
+    margin-top: 30px;
+    width: 100px;
+    
+  }
+  .pg-3{
+    margin-top: 30px;
+    width:130px;
+  }
+  .tt-3{
+    font-size: 18pt;
+  }
+  .tweet-primero{
+    margin-top: 120px;
+  }
+  #img-tweet{
+    margin-top: 30px;
+  }
+
+}
