@@ -33,7 +33,7 @@ article, aside{
     overflow-y:auto;
 }
 #margenizquierdo{
-    margin: 0 20px 0 50%;
+    margin: 0 20px 0 28%;
 }
 header nav a{
     margin: 0 20px 0 0;
@@ -147,4 +147,17 @@ div h3{
 }
 .card h3, button{
   display: inline-block;
+}
+.section-adicional2{
+  margin-left: 50px;
+  flex: 1.5;
+}
+.subtitles{
+  color:rgb(170, 0, 0);
+}
+.texto{
+padding-top: 30px;
+}
+.padding{
+  padding-top: 25px;
 }
