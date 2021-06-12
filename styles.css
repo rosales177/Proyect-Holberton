@@ -162,7 +162,10 @@ padding-top: 30px;
   padding-top: 25px;
 }
 
-@media only screen and (max-width: 700px){
+@media only screen and (max-width: 500px){
+  article,aside{
+    display: block;
+  }
   header{
     padding: 20px 0 20px 50px;
     
@@ -212,6 +215,9 @@ padding-top: 30px;
   }
   #img-tweet{
     margin-top: 30px;
+  }
+  .pregunta-larga{
+    font-size: 17pt;
   }
 
 }
