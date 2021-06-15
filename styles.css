@@ -163,24 +163,37 @@ padding-top: 30px;
   padding-top: 25px;
 }
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 600px){
   article,aside{
     display: block;
   }
   header{
-    padding: 20px 0 20px 50px;
+    margin: 0%;
+    padding: 20px 0 20px 0;
+    
     
   }
   #margenizquierdo{
-    margin: 0 10px 0 0;
+    margin: 0 4% 0 0;
 }
+  #margenderecho{
+    margin-right: 0%;
+  }
+  header nav{
+    display: flex;
+    justify-content: center;
+  }
   header nav a{
     padding: 0;
-    font-size: 8.3pt;
-    margin: 0 10px 0 0;
+    font-size: 0.8em;
+    margin: 0 4% 0 0;
 }
-  .margin{
-    margin-left: 70px;
+  /*.margin{
+    margin-left: 35%;
+  }*/
+  div{
+    display: flex;
+    justify-content: center;
   }
   div a img{
     width: 50px;
@@ -190,11 +203,14 @@ padding-top: 30px;
     margin: 10px 0 0 0;
   }
   main{
+    display: flex;
+    justify-content: center;
     text-align: justify;
     margin: 60px 0 0 0;
   }
   main p{
-    margin: 30px 20px 0 20px;
+    width: 100%;
+    margin: 30px 0 0 0;
   }
   .text-largo{
     font-size: 15pt;
@@ -217,6 +233,10 @@ padding-top: 30px;
   #img-tweet{
     margin-top: 30px;
   }
+  .section-twitter{
+    width: 90%;
+    margin-left: 5%;
+  }
   .pregunta-larga{
     text-align: left;
     /*font-size: 17pt;*/
@@ -229,7 +249,7 @@ padding-top: 30px;
   }
   p,h2,h3,li{
     padding: 0;
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
     text-align: left;
   }
@@ -247,4 +267,27 @@ padding-top: 30px;
   margin-left: 2.5%;
   padding: 0%;
   }
+  
+  .subcard{
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+  }
+  .parrafo{
+    width: 80%;
+    margin-left: 10%;
+  }
+  .card-codigo{
+    display: flexbox;
+    background-color: white;
+    width: 90%;
+    margin-left: 5%;
+    
+  }
+  .card-codigo p, .tabulador{
+    display: inline-block;
+
+  }
+
+  
 }
