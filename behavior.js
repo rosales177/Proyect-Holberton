@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded",function(event){
-  console.log("Hello");
+  alert("Hello");
   //Despliegue de card1
   function desplegarCard1() {
     let card1 = document.getElementById("card-1");
